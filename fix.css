@@ -1,0 +1,336 @@
+:root {
+  --primary-color: #01052c;
+  --secondary-color: #302848;
+  --secondary-color-2: #443866;
+  --color-white: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+/* ----------------------------------- HEADING ----------------------------------- */
+
+.heading-primary {
+  font-size: 5rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  color: var(--secondary-color);
+}
+
+/* ----------------------------------- IMG ----------------------------------- */
+
+.img-header {
+  /* FIX */
+  padding: 38rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("img/space-i01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: 100vw; */
+  /* background-attachment: fixed; */
+  /* outline: 5px solid purple; */
+}
+
+.img-nav {
+  position: absolute;
+  top: 0rem;
+  left: 4rem;
+}
+
+.img-title {
+  position: absolute;
+  background-size: 200%;
+  width: 30rem;
+  top: 43rem;
+  left: 37rem;
+}
+
+.img-map {
+  background-image: url(img/world-map.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 35rem;
+}
+
+.img-galaxy,
+.img-earth,
+.img-mars {
+  position: absolute;
+  margin-top: 3rem;
+  margin-left: 8rem;
+  width: 8rem;
+}
+
+.img-bck-calendar {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/calendar-bck.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 38rem;
+}
+
+.img-calendar {
+  width: 45rem;
+  position: absolute;
+  top: 229rem;
+  left: 88rem;
+  background-color: rgba(255, 255, 255, 0.815);
+}
+
+.img-bck-square {
+  background-image: url(img/space-bckk.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 19rem;
+}
+
+.img-footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/footer-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20rem;
+}
+
+.logo-footer {
+  width: 13rem;
+  position: absolute;
+  top: 330rem;
+  left: 5rem;
+}
+
+/* ----------------------------------- PARAGRAPH ----------------------------------- */
+.p-circle-1,
+.p-circle-2,
+.p-circle-3 {
+  position: absolute;
+  font-weight: 500;
+}
+
+.p-circle-1 {
+  font-size: 2.2rem;
+  padding-top: 14rem;
+  margin-left: 4rem;
+}
+
+.p-circle-2,
+.p-circle-3 {
+  font-size: 2.4rem;
+  padding-top: 15rem;
+  margin-left: 4.5rem;
+}
+
+.br {
+  position: relative;
+  display: block;
+  left: -1.2rem;
+}
+
+.p-cal {
+  color: var(--color-white);
+  font-size: 2.2rem;
+  margin-top: 3rem;
+  line-height: 1.5;
+}
+
+.p-sky,
+.p-youtube,
+.p-books {
+  font-size: 4rem;
+  font-weight: 400;
+  padding-top: 8rem;
+}
+
+.p-sky,
+.p-youtube {
+  padding-left: 1rem;
+}
+
+.p-books {
+  padding-left: 2rem;
+}
+
+.footer-txtbox {
+  position: absolute;
+  bottom: -268rem;
+  left: 35rem;
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+.footer-text {
+  padding-left: 13rem;
+}
+
+.p-footer {
+  position: absolute;
+  top: 360rem;
+  color: var(--color-white);
+  font-size: 1.8rem;
+  left: 57rem;
+}
+
+/* ----------------------------------- ICON ----------------------------------- */
+
+.footer-icon-container {
+  position: absolute;
+  top: 350rem;
+  font-size: 3.2rem;
+  left: 60rem;
+}
+
+.footer__icon {
+  padding-right: 10rem;
+}
+
+/* ----------------------------------- LINKS ----------------------------------- */
+
+.nav-item a {
+  color: var(--color-white);
+}
+
+.footer-txtbox a {
+  color: var(--color-white);
+}
+
+.footer__icon {
+  color: var(--color-white);
+}
+
+/* ----------------------------------- NAV ----------------------------------- */
+.navigation {
+  position: sticky;
+}
+
+.nav {
+  background-color: rgba(1, 5, 44, 0.87);
+  height: 15vh;
+  position: sticky;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 4rem;
+}
+
+.nav-item {
+  font-size: 2rem;
+  padding-right: 4rem;
+}
+
+.img-1 {
+  position: relative;
+  top: 0rem;
+}
+
+/* ----------------------------------- CIRCLE ----------------------------------- */
+
+.circle {
+  background-color: var(--primary-color);
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
+.observation,
+.earth-weather,
+.mars-weather {
+  display: inline-block;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  color: var(--color-white);
+  background-color: var(--secondary-color);
+  margin-left: 12.5%;
+}
+
+/* ----------------------------------- CALENDAR ----------------------------------- */
+
+.cal-textbox {
+  position: absolute;
+  left: 16rem;
+  top: 237rem;
+  background-color: #00000046;
+  border-radius: 40%;
+}
+
+.cal-header {
+  font-size: 4rem;
+  color: rgb(219, 219, 219);
+}
+
+/* ----------------------------------- SQUARE ----------------------------------- */
+/* .square {
+  background-color: var(--secondary-color-2);
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+} */
+
+.three-square-container {
+  position: absolute;
+  top: 296rem;
+}
+
+.sky-map,
+.youtube,
+.books {
+  display: inline-block;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 10%;
+  color: var(--color-white);
+  background-color: var(--primary-color);
+  margin-left: 18.5rem;
+}
+
+.sky-map-2,
+.youtube-2,
+.books-2 {
+  display: inline-block;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 10%;
+  color: var(--color-white);
+  background-color: rgba(1, 5, 44, 0.692);
+  margin-top: 10%;
+  margin-left: 14%;
+}
+
+/* ----------------------------------- FOOTER ----------------------------------- */
